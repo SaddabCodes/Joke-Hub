@@ -1,0 +1,48 @@
+body {
+  background-color: #003049;
+  font-family: sans-serif;
+  margin-left: 500px;
+  color: #faf3dd;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  gap: 50px;
+}
+#posts {
+  width: 300px;
+}
+#posts div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  display: flex;
+  gap: 25px;
+}
+i {
+  cursor: pointer;
+}
+
+#msg {
+  color: red;
+}
+#input {
+  border-radius: 10px;
+  transition: background-color 2s;
+  background-color: white;
+}
+#input:hover {
+  background-color: #613dc1;
+}
+
+#btn{
+  cursor: pointer;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  background-color: #ffe66d;
+}
